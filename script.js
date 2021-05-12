@@ -1,7 +1,7 @@
 const number = 12
 let guess = 0
 guess = parseInt(prompt('enter your guess'))
-while (guess != number) {
+while (guess != 12) {
   if (guess < 12) {
     guess = prompt('Your guess is too small, please try again')
   } else {
